@@ -71,15 +71,30 @@ li {
   text-decoration: none;
 }
 
-/* .btn:a {
+.btn a {
   color: #fff;
-} */
+  text-decoration: none;
+}
 
 .btn:hover {
-	background: #fff;
-	color: #5f9ea0;
-  border: 1px solid #5f9ea0;
+  background: #fff;
+  color: #5f9ea0;
+  /* border: 1px solid #5f9ea0; */
+  /* box-sizing: border-box; */
+  outline: 1px solid #5f9ea0;
+  outline-offset: -1px;
 }
+
+.btn a:hover {
+  color: #5f9ea0;
+} 
+
+
+
+/* .a:hover {
+  color: #5f9ea0;
+} */
+
 
 /* .btn::after {
   position: absolute;
