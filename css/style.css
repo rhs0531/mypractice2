@@ -85,9 +85,9 @@ li {
   outline-offset: -1px;
 }
 
-.btn a:hover {
+.btn:hover a{
   color: #5f9ea0;
-} 
+  }
 
 
 
